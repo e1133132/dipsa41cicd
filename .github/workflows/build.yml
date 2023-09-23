@@ -1,17 +1,20 @@
-name :Golang web example
+name: Golang web example
+
 on:
-   push:
-        branches:
-        -'v1.0'
-        tags:
-        -'latest'
+  push:
+    branches:
+      - 'v1.0'
+    tags:
+      - 'latest'
 
 jobs:
   ci:
-       runs-on: ubuntu-latest
-       permission: 
-         contents: write
-       steps:
-         -name: Checkout
-          uses: action/checkout@v4
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+
 
