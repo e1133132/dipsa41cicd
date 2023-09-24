@@ -50,9 +50,19 @@ jobs:
                     "type":"mrkdwn",
                     "text":"submission by : Chen Bochao"
                   }
+                },
+                {
+                  "type": "section",
                   "text": {
-                    "type":"mrkdwn",
-                    "text":"Matriculation number:A0276817N"
+                    "type": "mrkdwn",
+                    "text": "Metriculation:A0276817N"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "CBC LOVE NUS"
                   }
                 },
                 {
