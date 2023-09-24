@@ -47,6 +47,13 @@ jobs:
                 {
                   "type": "section",
                   "text": {
+                    "type": "mrkdwn",
+                    "text": "DipSA41C CI/CD Assignment Submission"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
                     "type":"mrkdwn",
                     "text":"Name : Chen Bochao"
                   }
