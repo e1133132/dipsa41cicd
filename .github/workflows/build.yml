@@ -1,14 +1,3 @@
-name: Golang web example
-
-on:
-  push:
-    branches:
-      - 'v1.0'
-    tags:
-      - 'latest'
-
-jobs:
-  ci:
     runs-on: ubuntu-latest
     permissions:
       contents: write
