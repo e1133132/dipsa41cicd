@@ -18,10 +18,16 @@ jobs:
 
       - name: Create tag
         uses: rickstaa/action-create-tag@v1
-        id: "tag create"
+        id: "tag_create"
+        with:
+          tag: "latest"
+          force_pushtag: true
+          message: "Latest release"
+      - name: Release
+        uses: ncipollo/release-action@v1
         with:
           skipIfReleaseExists: true
-          tag: "latest2"
+          tag: "latest"
           artifacts: "release,tar.gz,foo/*.txt"
           bodyFile: "body.md"
 
