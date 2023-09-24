@@ -41,16 +41,26 @@ jobs:
         uses: slackapi/slack-github-action@v1.24.0
         with:
           payload:  |
-            {
+              {
               "text": "Workshop 2 - CICD  Chen Bochao.",
-              "blocks":[
+              "blocks": [
                 {
                   "type": "section",
                   "text": {
                     "type":"mrkdwn",
-                    "text":"submission by : Chen Bochao , github url: https://github.com/e1133132/dipsa41cicd"
+                    "text":"submission by : Chen Bochao"
                   }
                 },
+                {
+                  "type": "section",
+                  "block_id": "section789",
+                  "fields": [
+                    {
+                      "type": "mrkdwn",
+                      "text": "Github URL : https://github.com/e1133132/dipsa41cicd"
+                    }
+                  ]
+                }
               ]
             }
         env:
