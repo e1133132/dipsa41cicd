@@ -62,8 +62,17 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "CBC LOVE NUS"
+                    "text": "Email:e1133132@u.nus.edu"
                   }
+                },
+                  "type": "section",
+                  "block_id": "section788",
+                  "fields": [
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Deployment :*\n ${{dipsa41cicd-production-ae88.up.railway.app}}"
+                    }
+                  ]
                 },
                 {
                   "type": "section",
@@ -71,7 +80,7 @@ jobs:
                   "fields": [
                     {
                       "type": "mrkdwn",
-                      "text": "Github URL : https://github.com/e1133132/dipsa41cicd"
+                      "text": "Repository : https://github.com/e1133132/dipsa41cicd"
                     }
                   ]
                 }
