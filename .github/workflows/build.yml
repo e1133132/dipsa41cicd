@@ -65,6 +65,7 @@ jobs:
                     "text": "Email:e1133132@u.nus.edu"
                   }
                 },
+                {
                   "type": "section",
                   "block_id": "section788",
                   "fields": [
