@@ -48,7 +48,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type":"mrkdwn",
-                    "text":"submission by : Chen Bochao"
+                    "text":"Name : Chen Bochao"
                   }
                 },
                 {
