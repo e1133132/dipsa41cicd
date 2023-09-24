@@ -42,8 +42,8 @@ jobs:
         with:
           payload:
             {
-              "text": "Workshop 2 - CICD - Chen Bochao",
-              "blocks": [
+              "text": "Workshop 2 - CICD  Chen Bochao.",
+              "blocks":[
                 {
                   "type": "section",
                   "text": {
