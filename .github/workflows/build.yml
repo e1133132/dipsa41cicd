@@ -99,7 +99,16 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "[Open Application](https://dipsa41cicd-production-ae88.up.railway.app)"
+                    "text": "*Open Application*"
+                  },
+                  "accessory": {
+                    "type": "button",
+                    "text": {
+                      "type": "plain_text",
+                      "text": "Open Application",
+                      "emoji": true
+                    },
+                    "url": "https://dipsa41cicd-production-ae88.up.railway.app"
                   }
                 }
               ]
