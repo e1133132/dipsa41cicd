@@ -36,6 +36,9 @@ jobs:
         run: railway up
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN}}
+      - name: Get Repository URL
+        id: repo_url
+        run: echo "::set-output name=url::git://github.com/${{ github.repository }}.git"
       - name: Send custom JSON data to Slack workflow
         id: slack
         uses: slackapi/slack-github-action@v1.24.0
@@ -55,21 +58,21 @@ jobs:
                   "type": "section",
                   "text": {
                     "type":"mrkdwn",
-                    "text":"Name : Chen Bochao"
+                    "text":"*Name :*\n Chen Bochao"
                   }
                 },
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "Metriculation:A0276817N"
+                    "text": "*Matriculation:*\n A0276817N"
                   }
                 },
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "Email:e1133132@u.nus.edu"
+                    "text": "*Email:*\n e1133132@u.nus.edu"
                   }
                 },
                 {
@@ -78,17 +81,18 @@ jobs:
                   "fields": [
                     {
                       "type": "mrkdwn",
-                      "text": "Deployment : https://dipsa41cicd-production-ae88.up.railway.app"
+                      "text": "*Repository :*\n ${{steps.repo_url.outputs.url}}"
                     }
                   ]
                 },
+
                 {
                   "type": "section",
                   "block_id": "section789",
                   "fields": [
                     {
                       "type": "mrkdwn",
-                      "text": "Repository : https://github.com/e1133132/dipsa41cicd"
+                      "text": "*Deployment :*\n ${{ secrets.Deployment}}"
                     }
                   ]
                 }
