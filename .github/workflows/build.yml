@@ -100,7 +100,7 @@ jobs:
                   "block_id": "section790",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "<a href='https://dipsa41cicd-production-ae88.up.railway.app'>Open Application</a>"
+                    "text": "<${{ secrets.Dwployment }}|Open Application>"
                   }
                 }
               ]
