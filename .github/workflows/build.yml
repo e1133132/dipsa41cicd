@@ -96,19 +96,12 @@ jobs:
                   ]
                 },
                 {
-                  "type": "actions",
-                  "block_id": "section790",
-                  "elements": [
-                    {
-                      "type": "button",
-                      "text": {
-                        "type": "plain_text",
-                        "text": "Open Application",
-                        "emoji": true
-                      },
-                      "url": "https://dipsa41cicd-production-ae88.up.railway.app"
-                    }
-                  ]
+                  "type": "section",
+                  "block_id": "section791",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*Deployment :*\n ${{ secrets.Deployment}}\n<https://dipsa41cicd-production-ae88.up.railway.app|Open Application>"
+                  }
                 }
               ]
             }
