@@ -85,7 +85,6 @@ jobs:
                     }
                   ]
                 },
-
                 {
                   "type": "section",
                   "block_id": "section789",
@@ -93,6 +92,22 @@ jobs:
                     {
                       "type": "mrkdwn",
                       "text": "*Deployment :*\n ${{ secrets.Deployment}}"
+                    }
+                  ]
+                },
+                {
+                  "type": "actions",
+                  "block_id": "section790",
+                  "elements": [
+                    {
+                      "type": "button",
+                      "text": {
+                        "type": "plain_text",
+                        "text": "Open Applcation",
+                        "emoji": true
+                      },
+                      "style": "primary",
+                      "url": "https://dipsa41cicd-production-ae88.up.railway.app"
                     }
                   ]
                 }

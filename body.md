@@ -1,3 +1,0 @@
-## Sample web app
-
-- Example
