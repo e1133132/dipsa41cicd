@@ -58,7 +58,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type":"mrkdwn",
-                    "text":"*Name :*\n Chen Bochao"
+                    "text":"*Name :*\n Chen Bochao\t\t*Matriculation:*\n A0276817N"
                   }
                 },
                 {
@@ -90,7 +90,7 @@ jobs:
                   "block_id": "section790",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "*Deployment :*\n ${{ secrets.Deployment}}\n<https://dipsa41cicd-production-ae88.up.railway.app|Open Application>"
+                    "text": "*Deployment :*\n ${{ secrets.Deployment}}\n\n<https://dipsa41cicd-production-ae88.up.railway.app|Open Application>"
                   }
                 }
               ]
