@@ -58,7 +58,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type":"mrkdwn",
-                    "text":"*Name :*\t\t\t\t\t\t\t\t\t\t\t\t *Matriculation:*\n Chen Bochao\t\t \t\t\t\t\t\t\t A0276817N"
+                    "text":"*Name :*\t\t\t\t\t\t\t\t\t\t\t\t *Matriculation:*\n Chen Bochao\t\t  \t\t\t\t\t\t\t A0276817N"
                   }
                 },
                 {
