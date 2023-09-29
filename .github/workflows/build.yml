@@ -58,7 +58,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type":"mrkdwn",
-                    "text":"*Name :*\n Chen Bochao\t\t*Matriculation:*\n A0276817N"
+                    "text":"*Name :*\t\t\t *Matriculation:*\n Chen Bochao\t\t\t A0276817N"
                   }
                 },
                 {
