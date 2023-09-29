@@ -58,7 +58,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type":"mrkdwn",
-                    "text":"*Name :*\t\t\t\t\t\t\t\t\t\t\t\t *Matriculation:*\n Chen Bochao\t\t\t\t\t\t\t\t\t A0276817N"
+                    "text":"*Name :*\t\t\t\t\t\t\t\t\t\t\t\t *Matriculation:*\n Chen Bochao\t\t\t\t\t\t\t\t\t\t A0276817N"
                   }
                 },
                 {
@@ -72,7 +72,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "*Email:*\t\t\t\t\t\t\t\t\t\t\t\t\t*Repository :*\ne1133132@u.nus.edu\t\t\t\t\t${{steps.repo_url.outputs.url}}"
+                    "text": "*Email:*\t\t\t\t\t\t\t\t\t\t\t\t\t*Repository :*\ne1133132@u.nus.edu\t\t\t\t\t\t${{steps.repo_url.outputs.url}}"
                   }
                 },
                 {
